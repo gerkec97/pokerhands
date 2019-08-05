@@ -6,8 +6,7 @@ return function (App $app) {
 
     $app->add(new \Tuupola\Middleware\HttpBasicAuthentication([
         "users" => [
-            "root" => "t00r",
-            "somebody" => "passw0rd"
+            getenv("HTTP_AUTH_USER") => getenv("HTTP_AUTH_PASSWORD")
         ]
     ]));
 
