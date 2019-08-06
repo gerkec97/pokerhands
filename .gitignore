@@ -2,3 +2,4 @@
 /logs/*
 /docs/*
 !/logs/README.md
+.env

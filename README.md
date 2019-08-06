@@ -14,7 +14,11 @@ The database is already set up but in case you need to regenerate it, use the fo
 
 Start the application using the php built-in webserver with the following command
 
-    composer install
+    composer start
+
+From now on the application is accessible using 
+    
+    http://localhost:8080
 
 Note that the application has been developed using PHP 7
 
