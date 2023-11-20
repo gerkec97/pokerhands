@@ -1,3 +1,6 @@
+# The challenge
+Details about the coding challenge can be found in the requirements.zip file
+
 # Installation and running
 
 Clone the repository and run this command from the directory in which you want to install
